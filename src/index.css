@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-spidey-red: #bb0909;
+  --color-miles-red: #bb0909;
+  --color-miles-blue: #2672F2;
+  --color-symbiote: #050505;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+.hero-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -0.04em; /* Junto / Tight tracking */
+}
+
+.glow-red {
+  text-shadow: 0 0 30px rgba(226, 54, 54, 0.5);
+}
+
+.glow-blue {
+  text-shadow: 0 0 30px rgba(38, 114, 242, 0.5);
+}
